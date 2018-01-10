@@ -1,0 +1,11 @@
+action_sequence = ['V','a','a','a','a','a','a','a','V','a','a','a','a','a','a','a']
+for action in range(0,27):
+        if (action%3) <= 1:
+            self.action[action%3+1] = 'p'
+        if_spin = int(action / 3)
+        if if_spin == 0:
+            self.action[3]='p'
+        if if_spin == 1:
+            self.action[4]='p'
+    print(action_sequence[0:7])
+    action_sequence = ['V','a','a','a','a','a','a','a','V','a','a','a','a','a','a','a']
